@@ -12,7 +12,7 @@ const OrderStatas = () => {
       const COLORS = ["#dc3545" ,"#e9ecef" ,  "#0088FE"];
       
     return (
-        <PieChart width={220} height={300}>
+        <PieChart width={215} height={300}>
         <Pie
           data={data}
           cx={120}

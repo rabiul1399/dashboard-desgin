@@ -53,9 +53,9 @@ const Overview = () => {
         alert("You selected some dtext!");
     }
 
-    // static demoUrl = 'https://codesandbox.io/s/bar-chart-has-no-padding-jphoc';
+
     return (
-        <div className=' mx-3  py-5 '>
+        <div className=' mx-3   py-5 '>
             <div className='bg-white shadow rounded-3 p-2'>
                 <div className='d-flex justify-content-between'>
                     <h4 className=''>Overview</h4>
@@ -87,6 +87,7 @@ const Overview = () => {
                                         <br />
                                         <strong>5,456</strong>
                                     </div>
+                                    <span className='border-end'> </span>
                                     <div className='ms-2 '>
                                         <span>Sales</span>
                                         <br />
@@ -100,6 +101,7 @@ const Overview = () => {
                                         <br />
                                         <strong>12.03%</strong>
                                     </div>
+                                    <span className='border-end'> </span>
                                     <div className='ms-2 '>
                                         <span>Customers</span>
                                         <br />
@@ -112,6 +114,7 @@ const Overview = () => {
                                         <br />
                                         <strong>$32.356</strong>
                                     </div>
+                                    <span className='border-end'></span>
                                     <div className='ms-2 '>
                                         <span>Expenses</span>
                                         <br />

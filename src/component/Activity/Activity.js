@@ -6,7 +6,7 @@ import UserActivity from './UserActivity';
 const Activity = () => {
     return (
         <div>
-            <div className='row  gap-3 mx-3 justify-content-center'>
+            <div className='row   gap-3 mx-3 justify-content-center'>
                 <div className='col bg-white py-3 shadow rounded-3 '>
 
                     <div className='d-flex justify-content-between'>
@@ -50,7 +50,7 @@ const Activity = () => {
                 </div>
                 <div className='col bg-white py-3 shadow rounded-3 '>
 
-                    <div className='d-flex justify-content-between mb-3'>
+                    <div className='d-flex justify-content-between'>
                         <h5 className='fw-bold'>Top Product</h5>
                         <select class=" border-0 text-secondary fw-semibold" aria-label="Default select example">
                             <option value="1">Monthly</option>
