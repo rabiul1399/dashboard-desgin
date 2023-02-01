@@ -1,11 +1,14 @@
-import {  fa8,  faCalendarAlt,  faComment, faDashboard, faDiagramProject, faElevator, faEnvelope,  faFileAlt, faFileInvoice, faGrinSquint, faPenToSquare, faUserCheck,faWifi3 } from '@fortawesome/free-solid-svg-icons';
+import { fa8, faCalendarAlt, faComment, faDashboard, faDiagramProject, faElevator, faEnvelope, faFileAlt, faFileInvoice, faGrinSquint, faPenToSquare, faUserCheck, faWifi3 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
 const DashboardList = () => {
     return (
         <div className='m-2'>
-            <span className='fw-semibold'>MENU</span>
+            <div className='d-flex justify-content-between '>
+                <span className='fw-semibold'>MENU</span>
+                <button type="button" class="btn  btn-close bg-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
             <div class="accordion " id="accordionExample">
                 <div class="accordion-item border border-0 ">
                     <h2 class="accordion-header " id="headingOne">
@@ -117,22 +120,22 @@ const DashboardList = () => {
                 </div>
 
                 <li class="list-group-item list-group-item-action py-2" >
-                        <div className='d-flex align-items-center'>
-                            <FontAwesomeIcon className=' me-2' icon={faGrinSquint} />
-                            <select class="form-select bg-secondary border-0 ps-0 " aria-label="Default select example">
-                                <option selected> Utillity</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
+                    <div className='d-flex align-items-center'>
+                        <FontAwesomeIcon className=' me-2' icon={faGrinSquint} />
+                        <select class="form-select bg-secondary border-0 ps-0 " aria-label="Default select example">
+                            <option selected> Utillity</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
 
-                            </select>
-                        </div>
-                    </li>
+                        </select>
+                    </div>
+                </li>
             </div>
             <div className='mt-4'>
                 <p className='fw-semibold'>COMPONENTS</p>
 
                 <div>
-                <li class="list-group-item list-group-item-action py-2" >
+                    <li class="list-group-item list-group-item-action py-2" >
                         <div className='d-flex align-items-center'>
                             <FontAwesomeIcon className=' me-2' icon={faElevator} />
                             <select class="form-select bg-secondary border-0 ps-0 " aria-label="Default select example">
@@ -143,7 +146,7 @@ const DashboardList = () => {
                             </select>
                         </div>
                     </li>
-                <li class="list-group-item list-group-item-action py-2" >
+                    <li class="list-group-item list-group-item-action py-2" >
                         <div className='d-flex align-items-center'>
                             <FontAwesomeIcon className=' me-2' icon={faPenToSquare} />
                             <select class="form-select bg-secondary border-0 ps-0 " aria-label="Default select example">

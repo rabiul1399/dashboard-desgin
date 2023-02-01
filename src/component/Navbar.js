@@ -7,10 +7,12 @@ import my from './img/rabi-9.jpg'
 const Navbar = () => {
     return (
         <div>
-            <nav class=" d-flex justify-content-between  pt-3 bg-light">                 <div>
-                
-                <a class="navbar-brand fs-3 ms-2" href="#">Dashboard</a>
-            </div>
+            <nav class="container-fluid mx-3 d-flex justify-content-between  pt-3 bg-light">
+                <div>
+                    <button class="btn btn-light mb-2 ms-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                        <FontAwesomeIcon className=' me-2 ' icon={faBars} />
+                    </button>
+                </div>
 
                 <div>
                     <div className='me-5'>
